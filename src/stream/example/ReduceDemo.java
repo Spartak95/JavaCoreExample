@@ -17,9 +17,5 @@ public class ReduceDemo {
          System.out.println("value " + value);
          System.out.println("value2 " + value2);
          System.out.println("Զույգ թվերի գումարը " + value3);
-
-         System.out.println("===========");
-         System.out.println("t\rrrrr");
-         System.out.println("rrrr");
     }
 }

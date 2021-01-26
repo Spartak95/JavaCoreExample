@@ -13,7 +13,7 @@ public class ReduceDemo {
          int value = stream2.reduce(1, Integer::sum);
          int value2 = stream3.reduce(1, (acc, com) -> acc * com, Integer::sum);
          int value3 = stream4.reduce(0, (a, b) -> b % 2 == 0 ? a + b : a);
-         System.out.println("optional " + optional.get());
+         optional.ifPresent(integer -> System.out.println("optional " + integer));
          System.out.println("value " + value);
          System.out.println("value2 " + value2);
          System.out.println("Զույգ թվերի գումարը " + value3);
